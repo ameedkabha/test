@@ -22,7 +22,7 @@ function App() {
       {users.map((user, index) => {
         return <p className='names' key={index}>{user.name}</p>
       })}
-
+<h1>hi</h1>
     </div>
   );
 };
